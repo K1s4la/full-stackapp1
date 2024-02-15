@@ -1,0 +1,33 @@
+body{
+    margin:0px; padding:0px;
+}
+.container-one{
+    margin:15px;
+    margin-left:500px;
+    
+}
+
+.row-cont{
+    display:flex;
+    width:50%;
+    justify-content: center;
+    flex-wrap: wrap;
+   /* border:2px solid black;*/
+}
+.top-row{
+margin:20px;
+flex:1;
+max-width:300px;
+height:200px;
+gap:5px;
+background-color:rgba(56, 209, 163, 0.562);
+border-radius: 12px;
+position: relative;
+align-items: center;
+min-width:50px;
+}
+.sum{
+    text-align: center;
+}
+
+   
