@@ -29,5 +29,26 @@ min-width:50px;
 .sum{
     text-align: center;
 }
+.container-two{
+margin:15px;
+}
+.container-button{
+    display:flex;
+    border:1px solid black;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+#testing-error,#testing-error-true{
+    margin:20px;
+    min-width:250px;
+    max-width:600px;
+    flex:1 1 60%;
+height:200px;
+gap:5px;
+background-color:rgba(56, 209, 163, 0.562);
+border-radius: 12px;
+position: relative;
 
+
+}
    
