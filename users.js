@@ -25,6 +25,10 @@ function subtract(){
 function divide(){
             let result=num1/num2
             sumEl.textContent = "Sum:" + result
-            
-                
             }
+    let problemError=document.getElementById("problem-prompt")
+            function problem(){
+                console.log("button clicked")
+                problemError.textContent="Oops guess this one causes issues?!?!?!?"
+            }
+           
