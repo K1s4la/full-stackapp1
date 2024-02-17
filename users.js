@@ -27,8 +27,13 @@ function divide(){
             sumEl.textContent = "Sum:" + result
             }
     let problemError=document.getElementById("problem-prompt")
+    let problemSolution=document.getElementById("solution-prompt")
             function problem(){
                 console.log("button clicked")
                 problemError.textContent="Oops guess this one causes issues?!?!?!?"
+            }
+            function noproblem(){
+                console.log("test")
+                problemSolution.textContent="Oops guess this one doesnt do anything!?!?!?!?!?! :)"
             }
            
